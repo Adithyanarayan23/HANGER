@@ -10,15 +10,21 @@ build/
 # Python
 __pycache__/
 *.py[cod]
+*.pyc
 *$py.class
 .venv/
 venv/
 env/
+.pytest_cache/
 
 # Environment variables
 .env
 frontend/.env
 backend/.env
+
+# IDEs
+.idea/
+.vscode/
 
 # Logs & OS
 *.log

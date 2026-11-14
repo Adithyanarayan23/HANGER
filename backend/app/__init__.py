@@ -1,0 +1,1 @@
+"""HANGER backend application package."""
