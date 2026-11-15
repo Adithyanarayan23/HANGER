@@ -7,6 +7,8 @@ from alembic import context
 
 from app.database.base import Base
 from app.database.connection import get_database_url
+import app.models.product  # noqa: F401 - Register Product model metadata for autogenerate
+import app.models.product_embedding  # noqa: F401 - Register ProductEmbedding model metadata
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
